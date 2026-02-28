@@ -6,7 +6,7 @@
       "name": "starter_api",
       "dependencies": {
         "@sudobility/auth_service": "^1.1.10",
-        "@sudobility/starter_types": "^0.0.7",
+        "@sudobility/testomniac_types": "^0.0.8",
         "@sudobility/types": "^1.9.55",
         "drizzle-orm": "^0.44.2",
         "firebase-admin": "^13.4.0",
@@ -219,7 +219,7 @@
 
     "@sudobility/auth_service": ["@sudobility/auth_service@1.1.10", "", { "peerDependencies": { "@sudobility/types": "^1.9.55", "firebase-admin": "^13.0.0" } }, "sha512-LUONbozetwVoBgrRC9mYWwvfzTPXdJH6Wb/GKZ8pbBVzFlEZxlY1Xby68kHZSTUPQT2c63nQ7XSjyNIIihXjjQ=="],
 
-    "@sudobility/starter_types": ["@sudobility/starter_types@0.0.7", "", { "peerDependencies": { "@sudobility/types": "^1.9.55" } }, "sha512-L8+jzmz3U3Allgt7DcEsmv6Oownq1VGUAocyfj+ZnMVNlhUXqmJ0b3suQrLee7l7wxOPt/Vk08LRxEbuGLh8Jw=="],
+    "@sudobility/testomniac_types": ["@sudobility/testomniac_types@0.0.8", "", { "peerDependencies": { "@sudobility/types": "^1.9.55" } }, "sha512-/m/6grnYn/9nDt6wvS0TQx/IeKjXfu9bAz0uUOgUbCYTDc46G6iThLAWpS8CAIMKto9HuIfnhjXCx5BEx89ZJQ=="],
 
     "@sudobility/types": ["@sudobility/types@1.9.55", "", {}, "sha512-cl8RwuaKSa6hBTuH7ipTXtJH1dLQCtLJsxEnwMmKvpCN+RINP6nR8VDUTmHONLP1IQ1pSPBvUmR0Ip+J63cL5g=="],
 

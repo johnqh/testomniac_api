@@ -1,6 +1,6 @@
 {
   "name": "testomniac_api",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "private": true,
   "description": "Starter API - Hono backend with PostgreSQL + Drizzle ORM",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@sudobility/auth_service": "^1.1.10",
-    "@sudobility/testomniac_types": "^0.0.7",
+    "@sudobility/testomniac_types": "^0.0.8",
     "@sudobility/types": "^1.9.55",
     "drizzle-orm": "^0.44.2",
     "firebase-admin": "^13.4.0",

@@ -3,8 +3,8 @@ import { users, histories, starterSchema } from "./schema";
 
 describe("Database Schema", () => {
   describe("starterSchema", () => {
-    it("should use 'starter' schema name", () => {
-      expect(starterSchema.schemaName).toBe("starter");
+    it("should use 'testomniac' schema name", () => {
+      expect(starterSchema.schemaName).toBe("testomniac");
     });
   });
 
