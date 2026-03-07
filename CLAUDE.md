@@ -108,15 +108,13 @@ Uses `@sudobility/auth_service` for Firebase token verification with caching.
 ## Gotchas
 
 - Database tables are created via raw SQL on startup, NOT via Drizzle migrations -- do not create migration files
-- The default port is `8022`, but `testomniac_app` defaults to `localhost:3001` in its `.env` -- this port mismatch must be resolved in environment configuration
+- The default port is `8022`. `testomniac_app` correctly defaults to `localhost:8022`, but `testomniac_extension` hardcodes `API_BASE_URL` to `localhost:3001` -- this port mismatch must be resolved manually in `background/index.ts`
 - Anonymous Firebase users are blocked with 403 -- only fully authenticated users are allowed
 - The `userId` in route paths (`:userId`) is the Firebase UID, not a database-generated ID
 - The DB Proxy pattern means connection errors only surface on first actual query, not at startup
 - `FIREBASE_PRIVATE_KEY` often needs newline escaping (`\\n` -> `\n`) depending on how it is set in the environment
 
-## Testing
+## Testing Notes
 
-- Run tests: `bun test`
 - Tests are in files alongside source (e.g., `*.test.ts`)
 - Tests cover schema definitions, Firebase auth middleware behavior, and route handlers
-- Tests use Vitest as the test runner
